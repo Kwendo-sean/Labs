@@ -1,3 +1,4 @@
 <resources>
-    <style name="Theme.TenantManagementSystem" parent="Theme.AppCompat.DayNight.DarkActionBar" />
+    <!-- NoActionBar: MainActivity supplies its own MaterialToolbar as the App Bar -->
+    <style name="Theme.TenantManagementSystem" parent="Theme.Material3.DayNight.NoActionBar" />
 </resources>

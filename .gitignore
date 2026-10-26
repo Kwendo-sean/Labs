@@ -1,0 +1,40 @@
+# JVM crash logs (Android Studio / Gradle out-of-memory dumps)
+hs_err_pid*.log
+replay_pid*.log
+*.hprof
+
+# Gradle
+.gradle/
+build/
+**/build/
+.kotlin/
+
+# Local machine config (SDK path)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+.navigation/
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output.json
+output-metadata.json
+
+# Signing keys
+*.jks
+*.keystore
+
+# Logs and OS junk
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
